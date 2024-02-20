@@ -13,14 +13,14 @@ The main parts include software for IoT devices and their control via a webpage,
 This repository includes documentation on how to use and assemble the system.
 
 ## Hardware
-- Bill of Materials (BOM) for putting together the system is inside [`./Hardware`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Hardware).
-- CAD files for 3D printed files and reference assemblies are inside [`./Hardware/CAD`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Hardware/CAD).
+- Bill of Materials (BOM) for putting together the system is inside [`./hardware`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/hardware).
+- CAD files for 3D printed files and reference assemblies are inside [`./hardware/CAD`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/hardware/CAD).
 
 
 ## Software
-Software to enable voltage sampling and user interaction, with accompanying documentation, are in [`./Software`](https://github.com/braingeneers/piphys/tree/main/Software).
+Software to enable voltage sampling and user interaction, with accompanying documentation, are in [`./software`](https://github.com/braingeneers/piphys/tree/main/software).
 - *device-class*: [`braingeneerpy`](https://github.com/braingeneers/braingeneerspy)
-- *device-class* child implementations: [`./Software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Software)
+- *device-class* child implementations: [`./software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software)
    - MaxOne
    - DinoLite
    - Autoculture
