@@ -1,2 +1,103 @@
-# integrated_system_paper
-Paper Supplementary Material
+# integrated-system-v1-paper
+Supplementary Material for paper submission to Science Robotics:
+
+***"A feedback-driven microfluidic, electrophysiology, and imaging platform for brain organoid studies"***
+
+<!-- Journal article: [A feedback-driven microfluidic, electrophysiology, and imaging platform for brain organoid studies](LINK HERE) -->
+
+## Overview
+
+<img src="./img/overview.png" height="280">
+This work presents a laboratory robotics system that uses IoT collaboration to improve the control of cell culture experiments.
+The main parts include software for IoT devices and their control via a webpage, computer vision analysis, an example  bill of materials, and 3D printed components for setting up the system.
+This repository includes documentation on how to use and assemble the system.
+
+## Hardware
+- Bill of Materials (BOM) for putting together the system is inside [`./Hardware`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Hardware).
+- CAD files for 3D printed files and reference assemblies are inside [`./Hardware/CAD`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Hardware/CAD).
+
+
+### Software
+Software to enable voltage sampling and user interaction, with accompanying documentation, are in [`./Software`](https://github.com/braingeneers/piphys/tree/main/Software).
+- *device-class*: [`braingeneerpy`](https://github.com/braingeneers/braingeneerspy)
+- *device-class* child implementations: [`./Software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Software)
+   - MaxOne
+   - DinoLite
+   - Autoculture
+   - Camera
+- Estimator
+- Website
+
+### Code_for_Figures 
+Contains code used to generate manuscript figures
+
+
+© 2024 Braingeneers
+
+
+---------
+### UC Santa Cruz (UCSC) Noncommercial License
+
+Acceptance
+
+In order to get any license under these terms, you must agree to them as both strict obligations and conditions to all your licenses.
+
+Copyright License
+
+The licensor grants you a copyright license for the repository to do everything you might do with the repository that would otherwise infringe the licensor's copyright in it for any permitted purpose.
+
+Notices
+
+You must ensure that anyone who gets a copy of any part of the repository from you also gets a copy of these terms, as well as the following copyright notice:
+
+This repository is Copyright © 2021. The Regents of the University of California (“Regents”). All Rights Reserved.
+
+Noncommercial Purposes
+
+Any noncommercial purpose is a permitted purpose.
+
+Commercial Purposes
+
+Contact Innovation Transfer, UC Santa Cruz, techno@ucsc.edu , https://officeofresearch.ucsc.edu/iatc/ , for any commercial purpose.
+
+Personal Uses
+
+Personal use for research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application, is use for a permitted purpose.
+
+Noncommercial Organizations
+
+Use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution is use for a permitted purpose regardless of the source of funding or obligations resulting from the funding.
+
+Fair Use
+
+You may have "fair use" rights for the repository under the law. These terms do not limit them.
+
+No Other Rights
+
+These terms do not allow you to sublicense or transfer any of your licenses to anyone else, or prevent the licensor from granting licenses to anyone else.  These terms do not imply any other licenses.
+
+Patent Defense
+
+If you make any written claim that the repository infringes or contributes to infringement of any patent, all your licenses for the repository granted under these terms end immediately. If your company makes such a claim, all your licenses end immediately for work on behalf of your company.
+
+Violations
+
+The first time you are notified in writing that you have violated any of these terms, or done anything with the repository not covered by your licenses, your licenses can nonetheless continue if you come into full compliance with these terms, and take practical steps to correct past violations, within 32 days of receiving notice.  Otherwise, all your licenses end immediately.
+
+No Liability
+
+As far as the law allows, the repository comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or nature of the repository, under any kind of legal claim.
+
+Definitions
+
+The "licensor" is Regents, and the "repository" is the repository the licensor makes available under these terms.
+
+"You" refers to the individual or entity agreeing to these terms.
+
+"Your company" is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization.  
+
+"Control" means ownership of substantially all the assets of an entity, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
+
+"Your licenses" are all the licenses granted to you for the repository under these terms.
+
+"Use" means anything you do with the repository requiring one of your licenses.
