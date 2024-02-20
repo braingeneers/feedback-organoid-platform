@@ -7,7 +7,7 @@ Supplementary Material for paper submission to Science Robotics:
 
 ## Overview
 
-<img src="./img/overview.png" height="280">
+<img src="./img/overview.jpg" height="280">
 This work presents a laboratory robotics system that uses IoT collaboration to improve the control of cell culture experiments.
 The main parts include software for IoT devices and their control via a webpage, computer vision analysis, an example  bill of materials, and 3D printed components for setting up the system.
 This repository includes documentation on how to use and assemble the system.
