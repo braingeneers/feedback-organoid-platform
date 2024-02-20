@@ -17,7 +17,7 @@ This repository includes documentation on how to use and assemble the system.
 - CAD files for 3D printed files and reference assemblies are inside [`./Hardware/CAD`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Hardware/CAD).
 
 
-### Software
+## Software
 Software to enable voltage sampling and user interaction, with accompanying documentation, are in [`./Software`](https://github.com/braingeneers/piphys/tree/main/Software).
 - *device-class*: [`braingeneerpy`](https://github.com/braingeneers/braingeneerspy)
 - *device-class* child implementations: [`./Software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/Software)
