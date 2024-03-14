@@ -1,7 +1,7 @@
 # integrated-system-v1-paper
 Supplementary Material for paper submission to Science Robotics:
 
-***"A feedback-driven microfluidic, electrophysiology, and imaging platform for brain organoid studies"***
+***"A feedback-driven IoT microfluidic, electrophysiology, and imaging platform for brain organoid studies"***
 
 <!-- Journal article: [A feedback-driven microfluidic, electrophysiology, and imaging platform for brain organoid studies](LINK HERE) -->
 
