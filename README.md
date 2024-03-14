@@ -18,7 +18,7 @@ This repository includes documentation on how to use and assemble the system.
 
 
 ## Software
-Software to enable voltage sampling and user interaction, with accompanying documentation, are in [`./software`](https://github.com/braingeneers/piphys/tree/main/software).
+Software to enable voltage sampling and user interaction, with accompanying documentation, is in [`./software`](https://github.com/braingeneers/piphys/tree/main/software).
 - *device-class*: [`braingeneerpy`](https://github.com/braingeneers/braingeneerspy)
 - *device-class* child implementations: [`./software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software)
    - MaxOne
@@ -26,14 +26,8 @@ Software to enable voltage sampling and user interaction, with accompanying docu
    - Autoculture
    - Camera
 - Estimator
-- Website
-
-### Code_for_Figures 
-Contains code used to generate manuscript figures
-
 
 © 2024 Braingeneers
-
 
 ---------
 ### UC Santa Cruz (UCSC) Noncommercial License
