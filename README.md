@@ -18,13 +18,14 @@ This repository includes documentation on how to use and assemble the system.
 
 
 ## Software
-Software for IoT devices is in [`./software`](https://github.com/braingeneers/piphys/tree/main/software).
+Software for IoT devices is in [`./software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software).
 - *device-class*: [`braingeneerpy`](https://github.com/braingeneers/braingeneerspy)
+   - Usage: `from braingeneers.iot import Device`
 - *device-class* child implementations: [`./software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software)
-   - Electrophysiology recording: MaxWell MaxOne [`./software/maxwell`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software)
+   - Electrophysiology recording: MaxWell MaxOne [`./software/maxwell`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/maxwell)
    - Microscope imaging: DinoLite [`./software/dinolite-microscope-camera`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/dinolite-microscope-camera)
    - Fluidic feeding: Autoculture [`./software/fluidics`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/fluidics)
    - Fluid level imaging: Camera [`./software/fluid-level-camera`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/fluid-level-camera)
-- Fluid level estimator [`./software/estimator`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/estimator)
+- Fluid level estimator: [`./software/estimator`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/estimator)
 
 © 2024 Braingeneers
