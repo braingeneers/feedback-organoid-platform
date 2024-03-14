@@ -182,8 +182,7 @@ Device state machine diagram:
 
 **Summary**
 
-<img src="
-  " alt="Image" width="800">
+<img src="../img/mqtt_device_state_machine_summary.png" alt="Image" width="800">
 
 Device states:
 
@@ -525,7 +524,7 @@ telemetry/workflow/log/START/<workflow-name> {"json": "params"}
 
 ## Experiment Workflow
 
-<img src="../img/user-workflow.png" alt="Image" width="175">
+<img src="../img/user-workflow.png" alt="Image" width="800">
 
 
 ### Diskcache
