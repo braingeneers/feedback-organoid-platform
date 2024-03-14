@@ -182,7 +182,8 @@ Device state machine diagram:
 
 **Summary**
 
-<img src="mqtt_device_state_machine_summary.png" alt="Image" width="800">
+<img src="
+  " alt="Image" width="800">
 
 Device states:
 
@@ -526,15 +527,9 @@ telemetry/workflow/log/START/<workflow-name> {"json": "params"}
 
 <img src="user-workflow.png" alt="Image" width="175">
 
-## Data
-
-[How Data is Stored & Organized in S3](https://github.com/braingeneers/wiki/blob/main/api_data/organizing-data.md)
-
 
 ### Diskcache
 There is no diskcache memory cap; files are stored outside of the disk cache location, then the file locations are mapped into the diskcache db and added and deleted based on upload status.
-
-
 
 ## Logging
 
