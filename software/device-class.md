@@ -230,7 +230,7 @@ The device subscribes and publishes messages on specific topics. The topics are 
 - To check if the device is responsive or check current tasks via message (instead of shadow database): `PING`, `STATUS`
 
 - Illustration of commands influencing experiment flow and command combination scenarios:
-<img src="cmd_visu.png" alt="Image" width="800">
+<img src="../img/cmd_visu.png" alt="Image" width="800">
 
 #### Command values every device knows (`<COMMAND_VALUE>`)
 
@@ -525,7 +525,7 @@ telemetry/workflow/log/START/<workflow-name> {"json": "params"}
 
 ## Experiment Workflow
 
-<img src="user-workflow.png" alt="Image" width="175">
+<img src="../img/user-workflow.png" alt="Image" width="175">
 
 
 ### Diskcache
