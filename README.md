@@ -18,7 +18,7 @@ This repository includes documentation on how to use and assemble the system.
 
 
 ## Software
-Software to enable voltage sampling and user interaction, with accompanying documentation, is in [`./software`](https://github.com/braingeneers/piphys/tree/main/software).
+Software for IoT devices is in [`./software`](https://github.com/braingeneers/piphys/tree/main/software).
 - *device-class*: [`braingeneerpy`](https://github.com/braingeneers/braingeneerspy)
 - *device-class* child implementations: [`./software`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software)
    - MaxOne
