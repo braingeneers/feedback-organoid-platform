@@ -540,3 +540,32 @@ and it contains a CSV with:  `UTC timestamp,  topic (i.e., <device_name>/cmnd ),
 
 
 A MQTT device is recommended to produce a `<device-name>_<uuid>.log` of all jobs it executed during the experiment with specific timestamps and any error messages it encounters.
+
+
+## Credentials
+
+Each device should have a file `~/.aws/credentials` with valid keys to access cloud services. 
+
+
+## Runtime Environment
+It is also recommended to create and run code in a conda environment with Python 3.10 on all devices.
+
+## Environment
+
+To set up the conda environment `bgrenv` with braingeneerspy:
+```
+curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
+sha256sum anaconda.sh
+bash anaconda.sh
+export PATH="$HOME/miniconda3/bin:$PATH"
+source ~/.bashrc
+conda create --name bgrenv python=3.10
+conda deactivate
+```
+
+To run device code in conda environment:
+```
+conda activate bgrenv
+python3 your-main-device-program.py
+```
+
