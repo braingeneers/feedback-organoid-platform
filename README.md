@@ -1,4 +1,4 @@
-# integrated-system-v1-paper
+# feedback-organoid-platform
 Supplementary Materials to Elsevier IoT journal article:
 
 ***"A feedback-driven brain organoid platform enables automated maintenance and high-resolution neural activity monitoring"***
