@@ -1,9 +1,9 @@
 # integrated-system-v1-paper
-Supplementary Material for paper submission to Science Robotics:
+Supplementary Materials to Elsevier IoT journal article:
 
-***"A feedback-driven IoT microfluidic, electrophysiology, and imaging platform for brain organoid studies"***
+***"A feedback-driven brain organoid platform enables automated maintenance and high-resolution neural activity monitoring"***
 
-<!-- Journal article: [A feedback-driven microfluidic, electrophysiology, and imaging platform for brain organoid studies](LINK HERE) -->
+[https://doi.org/10.1016/j.iot.2025.101671](https://doi.org/10.1016/j.iot.2025.101671)
 
 ## Overview
 
@@ -28,4 +28,4 @@ Software for IoT devices is in [`./software`](https://github.com/braingeneers/in
    - Fluid level imaging: Camera [`./software/fluid-level-camera`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/fluid-level-camera)
 - Fluid level estimator: [`./software/estimator`](https://github.com/braingeneers/integrated-system-v1-paper/tree/main/software/estimator)
 
-© 2024 Braingeneers
+© 2025 Braingeneers
